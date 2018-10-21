@@ -1,0 +1,60 @@
+{% load static from staticfiles %}
+<!doctype html>
+
+
+<html lang="en">
+
+  <head><title>Documents</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'abc.css'%}" type="text/css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-info" >
+
+    <a class="navbar-brand" href="/homepage/" ><img src="{% static 'images/LOGO.png'%}" style="display: inline-block;height:32px;width:32px" style="color:white;font-family: 'Chakra Petch', sans-serif;"><strong>Ritik Arora</strong></a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+   <div class="navbar-nav ml-auto">
+     <a class="nav-item nav-link active" href="/projects/" style="color:white;font-family: 'Chakra Petch', sans-serif;">Projects</a>
+
+     <a class="nav-item nav-link active" href="/resume/" style="color:white;font-family: 'Chakra Petch', sans-serif;">Resume</a>
+     <a class="nav-item nav-link active" href="/about_me/" style="color:white;font-family: 'Chakra Petch', sans-serif;">AboutMe</a>
+   </div>
+ </div>
+
+</nav>
+<body>
+  <div class=row><div class="col" style="margin-top:100px"><center>
+    <img class="circle" src="{% static 'img.png'%}" height="150px" width="150px">
+  </center></div></div>
+<div class="about text-center"><strong>HI!, I am Ritik Arora. </strong>
+
+</div><center>
+<a href="/AboutMe/" style="color:#878a8e;">Read About Me..</a></center>
+<div class="footer">
+  <div class="row">
+<div class="col-xs-4 col-md-8">
+<strong>   <i class="fa fa-phone"></i>
+   <span >+91 8287969097</span><br>
+  <i class="fa fa-map-marker"></i>
+					<span>New Delhi</span> India</strong>
+</div>
+<div class="col-xs-8 col-md-4">
+  <strong>
+<i class="fa fa-envelope"></i><span>     Ritickarora.123@gmail.com</span><br>
+<a href="https://www.linkedin.com/in/akshay-arora-29158b140/"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+<a href="https://www.facebook.com/cool.a.arora"  ><i class="fa fa-facebook" ></i></a></strong>
+</div>
+</div>
+</div>
+</body>
+</html>
